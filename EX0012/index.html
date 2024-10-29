@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em Html 5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pq.png">
+        <source media="(max-width: 1050px)" srcset="imagens/md.png">
+        <source media="(max-width: 1050px)" srcset="imagens/pc.png">
+        <img src="imagens/pc.png" alt="Imagens flexíveis" style="width: 100%; max-width: 1050px;">
+      </picture>
+   
+      <h1>Vídeos dinâmicos</h1>
+      <p>Vamos agora a testes de videos.</p>
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/XUzzciKjhqQ?si=AXgUibDpRpD7U5HZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
