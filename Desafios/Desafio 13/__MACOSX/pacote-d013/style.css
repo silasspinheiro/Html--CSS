@@ -1,0 +1,35 @@
+@charset  "UTF-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: blue;
+    font-family: Arial, sans-serif;
+}
+
+.tabela-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
