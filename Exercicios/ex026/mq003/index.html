@@ -4,7 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
-    <style></style>
+    <style>
+        * {
+    margin: 0px;
+    padding: 0px;
+    background-color: #233eff;
+
+    }
+    html, body {
+    background: url(../imagens/cev-portrait.jpg);width: 100vw;
+    background-attachment: fixed;height: 100vw;
+    background-repeat: no-repeat;
+    background-color: #233eff
+  
+   
+    
+    }
+    h1 {
+    color: white; 
+    text-shadow:2px 2px 0px #233eff;
+    padding: 10px;
+    }
+    @media screen and (orientation :portrait ) {body {
+    background: url(../imagens/cev-portrait.jpg);
+    background-size:contain ;
+    background-position: left bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+ @media screen and (orientation landscape) {
+    body {
+    background-image: url(../imagens/cev-landscape.jpg);
+    background-position: center bottom;
+   background-size: contain;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+}
+    
+
+    
+ }       
+    }
+    </style>
 </head>
 <body>
     <h1>Mude a orientação do seu dispositivo</h1>
