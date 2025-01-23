@@ -11,9 +11,10 @@ body {
 
 }
 header {
-    background-color: gray;
+    background-color: rgb(139, 139, 139);
 }
 header > h1 {
+    background-color: rgb(139, 139, 139);
     padding: 10px;
     text-align: center;
 }
@@ -42,9 +43,9 @@ menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: rgba(88, 87, 87,);
+    background-color: rgb(77, 77, 77);
     color: white;
-    border-top: 2px solid gray;
+    border-top: 2px solid rgba(128, 128, 128, 0.199);
 
 }
 menu > ul > li >a:hover {
